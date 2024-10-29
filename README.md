@@ -16,16 +16,19 @@ Foram utilizados 3 LEDs (verde, amarelo e vermelho), conectados às portas 5, 6 
 ## Código utilizado:
 
 ```
-#include <Servo.h>
+#include <Servo.h> //biblioteca para utilizar o servo
 
+//número dos pinos
 int ledVermelho = 6;
 int ledAmarelo = 5;
 int ledVerde = 4;
 
+//pino do servo
 Servo meuServo;
 int pinoServo = 3;
 
 void setup() {
+//define os pinos como outputs
   pinMode(ledVermelho, OUTPUT);
   pinMode(ledAmarelo, OUTPUT);
   pinMode(ledVerde, OUTPUT);
