@@ -15,7 +15,7 @@ Foram utilizados 3 LEDs (verde, amarelo e vermelho), conectados às portas 5, 6 
 
 ## Código utilizado:
 
-```
+```cpp
 #include <Servo.h> //biblioteca para utilizar o servo
 
 //número dos pinos
@@ -71,3 +71,15 @@ void loop() {
 ```
 
 [Link para visualização do funcionamento](https://www.youtube.com/watch?v=iweuzPhMklg)
+
+## Avaliação
+
+### Avaliador: Nome do Avaliador
+
+| Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                            | 0                        |                           Uso correto do resistor, montagem um pouco confusa de cabos e bom uso de cores: 2,5|
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        |                           Tempo marcado com cronômetro do celular correto: 3|
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        |                           Código respeita as fases do semáforo e apresenta boa estrutura, com comentários e bons nomes de variáveis: 3|
+| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5                         | 0                        |                           Utiliza o micro servo corretamente no sistema: 1|
+|  |                                                             |  | |**Pontuação Total: 9,5**|
